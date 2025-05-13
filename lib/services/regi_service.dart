@@ -5,6 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:notes/view/login_screen.dart';
 
+// ignore: non_constant_identifier_names
 RegiUser(String userName, String userEmail, String userPass) async {
   User? userId = FirebaseAuth.instance.currentUser;
   try {

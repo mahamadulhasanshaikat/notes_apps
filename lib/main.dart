@@ -30,6 +30,7 @@ class _MyAppState extends State<MyApp> {
     super.initState();
     user = FirebaseAuth.instance.currentUser;
     splashServices.isLogin(context);
+    // ignore: avoid_print
     print(user?.uid.toString());
   }
 
